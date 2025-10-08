@@ -5,7 +5,7 @@ pd.set_option("display.max_columns", None)
 # pd.set_option("display.max_rows", None) #shows all rows, for efficiency comment line because of vast data
 
 """below lines is actually to read the csv file from current file"""
-df = pd.read_csv("../day_2_03_08_2025/diamonds.csv")
+df = pd.read_csv("diamonds.csv")
 print(df)
 print("---------------------------------------------")
 
@@ -33,4 +33,5 @@ print("***************************************")
 
 """below function will work only on the numerical columns"""
 df_description = df.describe()
+
 print(df_description)
