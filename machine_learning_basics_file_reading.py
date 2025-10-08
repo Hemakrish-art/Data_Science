@@ -38,3 +38,6 @@ print(df_description)
 
 finding_null = df.isna()
 print(finding_null)
+
+cut_column_detailing = df["cut"].unique()
+print(cut_column_detailing)
