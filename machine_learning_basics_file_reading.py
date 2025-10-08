@@ -35,3 +35,6 @@ print("***************************************")
 df_description = df.describe()
 
 print(df_description)
+
+finding null = df.isna()
+print(finding_null)
