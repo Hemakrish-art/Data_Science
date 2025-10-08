@@ -41,3 +41,6 @@ print(finding_null)
 
 cut_column_detailing = df["cut"].unique()
 print(cut_column_detailing)
+
+cut_column_detailing = df["cut"].nunique()
+print(cut_column_detailing)
